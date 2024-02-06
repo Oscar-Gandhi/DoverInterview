@@ -1,0 +1,70 @@
+[
+  {
+  "testName":"Create a Raffle with valid test data",
+  "userName": "Usertest",
+  "reasonOptional":"Yes",
+  "userEmail": "usertest@gmail.com",
+  "agefield": "24",
+  "reason":"I should win becoz this is the First User",
+  "count":"0"
+},
+{
+  "testName":"Create a Raffle with valid test data",
+  "userName": "Usertest1",
+  "reasonOptional":"Yes",
+  "userEmail": "usertest1@gmail.com",
+  "agefield": "24",
+  "reason":"I should win becoz this is the Second User",
+  "count":"1"
+},
+{
+  "testName":"Create a Raffle with age less than 18",
+  "userName": "Usertest2",
+  "reasonOptional":"Yes",
+  "userEmail": "usertest2@gmail.com",
+  "agefield": "16",
+  "reason":"I should win becoz this is the Third User",
+  "count":"2"
+},
+{
+  "testName":"Create a Raffle with age equal to 17",
+  "userName": "Usertest3",
+  "userEmail": "usertest2@gmail.com",
+  "agefield": "17",
+  "reasonOptional":"Yes",
+  "reason":"I should win becoz this is the Defect User",
+  "count":"3"
+},
+{
+  "testName":"Create a Raffle with email address field as blank",
+  "reasonOptional":"Yes",
+  "multipleDataTest":"Yes",
+  "userName": "Usertest3",
+  "userEmail": "usertest3@gmail.com",
+  "agefield": "28",
+  "reason":"I should win becoz this is email address as blank",
+  "userName1": "Usertest4",
+  "userEmail1": "usertest4@gmail.com",
+  "agefield1": "30",
+  "reason1":"I should win becoz this is second user",
+  "warningMessage":"The winner of the raffle will be managed independently and will be contacted via email. You have registed",
+  "count":"4"
+},
+{
+"testName":"Create a Raffle with email address should enter correct eMail Address",
+"incorrectEmailAdd":"Yes",
+"userName": "Usertest5",
+"userEmail": "usertest.com",
+"agefield": "28",
+"reason":"I should win becoz this is email address is incorrect",
+"warningMessage":"Incorrect eMail Address Format",
+"count":"5"
+},
+{
+  "testName":"Create a Raffle with Reason as Optional ",
+  "userName": "Usertest6",
+  "userEmail": "usertest6@gmail.com",
+  "agefield": "38",
+  "count":"5"
+  }
+]
