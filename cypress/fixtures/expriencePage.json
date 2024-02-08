@@ -3,6 +3,7 @@
   "testName":"Create a Raffle with valid test data",
   "userName": "Usertest",
   "reasonOptional":"Yes",
+  "skipeMailAddress":"No",
   "userEmail": "usertest@gmail.com",
   "agefield": "24",
   "reason":"I should win becoz this is the First User",
@@ -12,6 +13,7 @@
   "testName":"Create a Raffle with valid test data",
   "userName": "Usertest1",
   "reasonOptional":"Yes",
+  "skipeMailAddress":"No",
   "userEmail": "usertest1@gmail.com",
   "agefield": "24",
   "reason":"I should win becoz this is the Second User",
@@ -20,6 +22,7 @@
 {
   "testName":"Create a Raffle with age less than 18",
   "userName": "Usertest2",
+  "skipeMailAddress":"No",
   "reasonOptional":"Yes",
   "userEmail": "usertest2@gmail.com",
   "agefield": "16",
@@ -29,6 +32,7 @@
 {
   "testName":"Create a Raffle with age equal to 17",
   "userName": "Usertest3",
+  "skipeMailAddress":"No",
   "userEmail": "usertest2@gmail.com",
   "agefield": "17",
   "reasonOptional":"Yes",
@@ -39,6 +43,7 @@
   "testName":"Create a Raffle with email address field as blank",
   "reasonOptional":"Yes",
   "multipleDataTest":"Yes",
+  "skipeMailAddress":"No",
   "userName": "Usertest3",
   "userEmail": "usertest3@gmail.com",
   "agefield": "28",
@@ -51,20 +56,20 @@
   "count":"4"
 },
 {
-"testName":"Create a Raffle with email address should enter correct eMail Address",
-"incorrectEmailAdd":"Yes",
+"testName":"Create a Raffle with with eMail address not entered",
+"skipeMailAddress":"Yes",
 "userName": "Usertest5",
-"userEmail": "usertest.com",
 "agefield": "28",
-"reason":"I should win becoz this is email address is incorrect",
-"warningMessage":"Incorrect eMail Address Format",
+"reason":"I should win becoz this is email address is skipped",
+"skipeMailwarningMessage":"Enter eMail Address",
 "count":"5"
 },
 {
   "testName":"Create a Raffle with Reason as Optional ",
   "userName": "Usertest6",
+  "skipeMailAddress":"No",
   "userEmail": "usertest6@gmail.com",
   "agefield": "38",
-  "count":"5"
+  "count":"6"
   }
 ]

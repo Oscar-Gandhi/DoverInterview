@@ -8,7 +8,8 @@ class expriencePageLocators{
         submitButton:()=> cy.contains("Submit"),
         submissionConfirmed: ()=> cy.contains("Submission Confirmed"),
         agelessWarningMessage: ()=>cy.contains("Must be 18 or older to enter."),
-        WarningMessage: ()=> cy.get("div.snippet__Body-sc-12bo3rm-0.cmpVnN").last()
+        WarningMessage: ()=> cy.get("div.snippet__Body-sc-12bo3rm-0.cmpVnN").last(),
+
     }
 }
 
