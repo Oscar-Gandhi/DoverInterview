@@ -2,7 +2,7 @@
 
 import expreincePageModule from "../modules/expreincePageModule";
 
-Cypress.session.clearAllSavedSessions()  //To avoid caching across browser
+
 
 describe(" User Exprience Page Test",function() {
     before(()=>{
