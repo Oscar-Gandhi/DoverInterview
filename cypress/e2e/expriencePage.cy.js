@@ -62,7 +62,7 @@ describe(" User Exprience Page Test",function() {
         expreincePageModule.borderColorCheck()
     })
     it("To Test User Exprience Page text Field User Border Color - Defect",()=>{
-        //Test to Fail .As per UI/UX when input field is focused should turn blue in Color but the color is black
+        
         expreincePageModule.borderColorCheck()
     })
 
