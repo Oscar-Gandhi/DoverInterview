@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "test:expreiencePage": "npx cypress run --spec cypress/e2e/expriencePage.cy.js"
+    "test:expreiencePage": "npx cypress run --spec cypress/e2e/expriencePage.cy.js",
+    "cypress:chrome":"npx cypress run --browser chrome --spec cypress/e2e/expriencePage.cy.js",
+    "cypress:edge":"npx cypress run --browser edge --spec cypress/e2e/expriencePage.cy.js"
   },
   "repository": {
     "type": "git",
@@ -14,7 +16,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^13.6.4",
+    "cypress": "^13.6.6",
     "cypress-dark": "^1.8.3",
     "cypress-mochawesome-reporter": "^3.8.1"
   }
